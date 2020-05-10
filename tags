@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Node	queue.cpp	/^		Node() : data(0),$/;"	f	struct:Queue::Node
+Node	queue.cpp	/^		Node(const T & d) : data(d),$/;"	f	struct:Queue::Node
+Node	queue.cpp	/^	struct Node {$/;"	s	class:Queue	file:
+Queue	queue.cpp	/^Queue<T>::Queue() : front(nullptr), $/;"	f	class:Queue
+Queue	queue.cpp	/^Queue<T>::Queue(Queue && obj) : front(obj.front), $/;"	f	class:Queue
+Queue	queue.cpp	/^Queue<T>::Queue(const Queue & obj) : front(nullptr), $/;"	f	class:Queue
+Queue	queue.cpp	/^class Queue {$/;"	c	file:
+copy	loading.sh	/^copy(){$/;"	f
+data	queue.cpp	/^		T data;$/;"	m	struct:Queue::Node	file:
+de_queue	queue.cpp	/^void Queue<T>::de_queue()$/;"	f	class:Queue
+destroy_queue	queue.cpp	/^void Queue<T>::destroy_queue(Node* &front)$/;"	f	class:Queue
+en_queue	queue.cpp	/^void Queue<T>::en_queue(const T & val)$/;"	f	class:Queue
+front	queue.cpp	/^	Node* front, *rear;$/;"	m	class:Queue	file:
+is_empty	queue.cpp	/^bool Queue<T>::is_empty() const$/;"	f	class:Queue
+main	queue.cpp	/^int main()$/;"	f
+next	queue.cpp	/^		Node* next;$/;"	m	struct:Queue::Node	file:
+operator =	queue.cpp	/^Queue<T> & Queue<T>::operator=(Queue && obj)$/;"	f	class:Queue
+operator =	queue.cpp	/^Queue<T> & Queue<T>::operator=(const Queue & obj)$/;"	f	class:Queue
+pop_front	queue.cpp	/^void Queue<T>::pop_front(Node* &front)$/;"	f	class:Queue
+print_queue	queue.cpp	/^void Queue<T>::print_queue()$/;"	f	class:Queue
+print_queue	queue.cpp	/^void Queue<T>::print_queue(Node* front)$/;"	f	class:Queue
+push_back	queue.cpp	/^void Queue<T>::push_back(const T &val, Node*& rear)$/;"	f	class:Queue
+rear	queue.cpp	/^	Node* front, *rear;$/;"	m	class:Queue	file:
+size	queue.cpp	/^	int size;$/;"	m	class:Queue	file:
+spin	loading.sh	/^spin(){$/;"	f
+swap	queue.cpp	/^Queue<T> & Queue<T>::swap(Queue & obj)$/;"	f	class:Queue
+~Queue	queue.cpp	/^Queue<T>::~Queue()$/;"	f	class:Queue
